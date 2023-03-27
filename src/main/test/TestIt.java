@@ -1,3 +1,7 @@
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class TestIt {
@@ -13,7 +17,7 @@ public class TestIt {
     @Test
     public void testNothing()
     {
-        assertEquals(2,1,2);
+        assertEquals(12,10,2);
     }
 
 }
